@@ -93,7 +93,6 @@ const handleLogin = ()=>{
             onChange={(e)=>setUsername(e.target.value)}
             id="fname"
             name="name"
-            defaultValue="John"
           />
           <br />
           <label htmlFor="fname">Email</label>
@@ -105,7 +104,6 @@ const handleLogin = ()=>{
             onChange={(e)=>setEmail(e.target.value)}
             id="email"
             name="email"
-            defaultValue="John"
           />
           <br />
           <label htmlFor="lname">Phone</label>
@@ -117,7 +115,6 @@ const handleLogin = ()=>{
             onChange={(e)=>setPhone(e.target.value)}
             id="lname"
             name="phone"
-            defaultValue="Doe"
           />
           <br />
           <label htmlFor="lname">Password</label>
@@ -129,7 +126,6 @@ const handleLogin = ()=>{
             onChange={(e)=>setPassword(e.target.value)}
             id="password"
             name="password"
-            defaultValue="Doe"
           />
           <br />
           {error&& <p style={{color:"red"}}>{error}</p>}
